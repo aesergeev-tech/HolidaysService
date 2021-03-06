@@ -7,8 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="efe9d6c7-2dfa-4f65-a6a9-7ad3f060253f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +39,7 @@
       <option value="$PROJECT_DIR$/HolidaysService.Host/Result.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Core/Class1.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Core/Result.cs" />
-      <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/IPublicHolidaysService.cs" />
-      <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Core/Constants.cs" />
       <option value="$PROJECT_DIR$/../HolidaysService.ApplicationService/HolidaysService.ApplicationService/ApplicationService.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/Class1.cs" />
@@ -48,6 +47,8 @@
       <option value="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pOEgZWZ6KPWwKNUiaIR2s6W3ag" />
@@ -60,11 +61,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.HolidaysService.Host">
@@ -157,5 +161,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\Work\HolidaysService\HolidaysService\HolidaysService.ApplicationService\ApplicationService.cs" initialLine="34" containingFunctionPresentation="method 'GetCountryWithMostHolidaysThisYear'">
+            <startOffsets>
+              <option value="1232" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1316" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs</url>
+          <line>19</line>
+          <properties documentPath="C:\Work\HolidaysService\HolidaysService\HolidaysService.ApplicationService\ApplicationService.cs" initialLine="19" containingFunctionPresentation="method 'GetCountryWithMostHolidaysThisYear'">
+            <startOffsets>
+              <option value="605" />
+            </startOffsets>
+            <endOffsets>
+              <option value="634" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

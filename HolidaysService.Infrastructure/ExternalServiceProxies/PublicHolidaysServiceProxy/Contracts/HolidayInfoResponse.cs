@@ -12,7 +12,7 @@ namespace HolidaysService.Infrastructure.ExternalServiceProxies.PublicHolidaysSe
         public bool Fixed {get; set; }
         public bool Global { get; set; }
         public List<string> Countries { get; set; }
-        public int LaunchYear { get; set; }
+        public string LaunchYear { get; set; }
         public string Type { get; set; }
     }
 }

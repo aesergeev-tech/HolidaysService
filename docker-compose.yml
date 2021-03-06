@@ -1,13 +1,5 @@
 version: '3.5'
 services:
-  application:
-    build: .
-    container_name: "HolidaysService" 
-    ports: 
-      - "8080:8080"
-    environment:
-    - Redis=redis:6379
-    restart: always 
   
   redis:
     image: "redis"

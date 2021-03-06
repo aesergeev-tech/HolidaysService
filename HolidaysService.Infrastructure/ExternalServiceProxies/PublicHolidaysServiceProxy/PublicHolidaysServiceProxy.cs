@@ -39,7 +39,7 @@ namespace HolidaysService.Infrastructure.ExternalServiceProxies.PublicHolidaysSe
                     case false:
                         return new Result<List<HolidayInfo>>
                         {
-                            Value = null,
+                            Value = new List<HolidayInfo>(),
                             FaultMessage = faultMessage,
                             IsSuccess = false
                         };
@@ -61,7 +61,13 @@ namespace HolidaysService.Infrastructure.ExternalServiceProxies.PublicHolidaysSe
                 }
             }
             
-            return null;
+            var jsonAirportInfo = Encoding.UTF8.GetString(encodedCountryHolidaysInfo);
+            return new Result<List<HolidayInfo>>
+            {
+                Value = JsonConvert.DeserializeObject<List<HolidayInfo>>(jsonAirportInfo),
+                FaultMessage = null,
+                IsSuccess = true
+            };
         }
 
         private static HolidayInfo Map(HolidayInfoResponse value)
@@ -76,7 +82,7 @@ namespace HolidaysService.Infrastructure.ExternalServiceProxies.PublicHolidaysSe
                 CountryCode = value.countryCode,
                 LaunchYear = value.launchYear,
                 Type = value.type,
-                Countries = value.countries.ToList()
+                Countries = value.countries?.ToList()
             };
         }
 
@@ -125,7 +131,7 @@ namespace HolidaysService.Infrastructure.ExternalServiceProxies.PublicHolidaysSe
             public bool Fixed {get; set; }
             public bool Global { get; set; }
             public List<string> countries { get; set; }
-            public int launchYear { get; set; }
+            public string launchYear { get; set; }
             public string type { get; set; }
         }
     }
