@@ -8,11 +8,16 @@
     <list default="true" id="efe9d6c7-2dfa-4f65-a6a9-7ad3f060253f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/HolidaysService.ApplicationService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.ApplicationService/HolidaysService.ApplicationService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/appsettings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HolidaysService.Host/HolidaysService.Host.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/HolidaysService.Host.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Infrastructure/HolidaysService.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Infrastructure/HolidaysService.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HolidaysService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/HolidaysService.ApplicationService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,7 +43,6 @@
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/ServiceConfiguration.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/HolidaysService.Host.csproj" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Boostrap/ExceptionFilter.cs" />
-      <option value="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Boostrap/ServiceCollectionExtensions.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/appsettings.json" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Result.cs" />
@@ -50,9 +51,12 @@
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/IPublicHolidaysService.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" />
-      <option value="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Core/Constants.cs" />
       <option value="$PROJECT_DIR$/../HolidaysService.ApplicationService/HolidaysService.ApplicationService/ApplicationService.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/Class1.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pOEgZWZ6KPWwKNUiaIR2s6W3ag" />

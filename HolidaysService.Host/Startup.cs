@@ -26,6 +26,7 @@ namespace HolidaysService.Host
             {
                 options.Configuration = Configuration.GetSection("Redis").Value;
             });
+            services.AddSingleton<ApplicationService.ApplicationService>();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "HolidaysService.Host", Version = "v1"}); });
         }
 

@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.Host", "HolidaysService.Host\HolidaysService.Host.csproj", "{68564E5C-B847-48E2-9724-ADD7E42B8448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.ApplicationService", "..\HolidaysService.ApplicationService\HolidaysService.ApplicationService\HolidaysService.ApplicationService.csproj", "{59DB0C8B-8685-43C7-8EE9-21B574CCCA52}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.Infrastructure", "HolidaysService.Infrastructure\HolidaysService.Infrastructure.csproj", "{79C81422-A36A-44A5-9BC6-11D7A5101C12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.Infrastructure.Tests", "HolidaysService.Infrastructure.Tests\HolidaysService.Infrastructure.Tests.csproj", "{28505871-9377-4170-8488-3520AF296ABA}"
@@ -11,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.Tests", "HolidaysService.Tests\HolidaysService.Tests.csproj", "{A28AE765-4C91-47B5-90E1-5644FE58DB6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.Core", "HolidaysService.Core\HolidaysService.Core.csproj", "{06F69D9E-19DE-43D6-89BD-D58AF8D41FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysService.ApplicationService", "HolidaysService.ApplicationService\HolidaysService.ApplicationService.csproj", "{A595791F-2443-4E65-A117-308FA5D36122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,6 @@ Global
 		{68564E5C-B847-48E2-9724-ADD7E42B8448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68564E5C-B847-48E2-9724-ADD7E42B8448}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68564E5C-B847-48E2-9724-ADD7E42B8448}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59DB0C8B-8685-43C7-8EE9-21B574CCCA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59DB0C8B-8685-43C7-8EE9-21B574CCCA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59DB0C8B-8685-43C7-8EE9-21B574CCCA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59DB0C8B-8685-43C7-8EE9-21B574CCCA52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{79C81422-A36A-44A5-9BC6-11D7A5101C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79C81422-A36A-44A5-9BC6-11D7A5101C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C81422-A36A-44A5-9BC6-11D7A5101C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,5 +38,9 @@ Global
 		{06F69D9E-19DE-43D6-89BD-D58AF8D41FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F69D9E-19DE-43D6-89BD-D58AF8D41FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F69D9E-19DE-43D6-89BD-D58AF8D41FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A595791F-2443-4E65-A117-308FA5D36122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A595791F-2443-4E65-A117-308FA5D36122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A595791F-2443-4E65-A117-308FA5D36122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A595791F-2443-4E65-A117-308FA5D36122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
