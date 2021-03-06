@@ -2,7 +2,7 @@ version: '3.5'
 services:
   application:
     build: .
-    container_name: "DCservice" 
+    container_name: "HolidaysService" 
     ports: 
       - "8080:8080"
     environment:
