@@ -1,3 +1,4 @@
+using HolidaysService.Host.Boostrap;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,6 +21,11 @@ namespace HolidaysService.Host
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.ConfigureExternalServices(Configuration);
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = Configuration.GetSection("Redis").Value;
+            });
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "HolidaysService.Host", Version = "v1"}); });
         }
 

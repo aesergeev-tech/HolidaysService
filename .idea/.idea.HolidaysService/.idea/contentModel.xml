@@ -20,9 +20,26 @@
     <e p="C:\Users\a.sergeev\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
     <e p="C:\Users\a.sergeev\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Work\HolidaysService\HolidaysService" t="IncludeFlat">
+      <e p="HolidaysService.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants.cs" t="Include" />
+        <e p="HolidaysService.Core.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="HolidaysService.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Result.cs" t="Include" />
+      </e>
       <e p="HolidaysService.Host" t="IncludeRecursive">
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Boostrap" t="Include">
+          <e p="ExceptionFilter.cs" t="Include" />
+          <e p="ServiceCollectionExtensions.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="HolidaysController.cs" t="Include" />
         </e>
@@ -42,6 +59,16 @@
       </e>
       <e p="HolidaysService.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ExternalServiceProxies" t="Include">
+          <e p="PublicHolidaysServiceProxy" t="Include">
+            <e p="Contracts" t="Include">
+              <e p="HolidayInfoResponse.cs" t="Include" />
+            </e>
+            <e p="IPublicHolidaysService.cs" t="Include" />
+            <e p="PublicHolidaysServiceProxy.cs" t="Include" />
+            <e p="ServiceConfiguration.cs" t="Include" />
+          </e>
+        </e>
         <e p="HolidaysService.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -77,6 +104,7 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Work\HolidaysService\HolidaysService.ApplicationService\HolidaysService.ApplicationService" t="IncludeRecursive">
+      <e p="ApplicationService.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="HolidaysService.ApplicationService.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
