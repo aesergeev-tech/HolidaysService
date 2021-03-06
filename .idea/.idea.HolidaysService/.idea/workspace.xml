@@ -6,19 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efe9d6c7-2dfa-4f65-a6a9-7ad3f060253f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/HolidaysService.ApplicationService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.ApplicationService/HolidaysService.ApplicationService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/HolidaysService.Host.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/HolidaysService.Host.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +47,7 @@
       <option value="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pOEgZWZ6KPWwKNUiaIR2s6W3ag" />
