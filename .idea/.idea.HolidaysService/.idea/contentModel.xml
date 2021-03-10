@@ -103,8 +103,17 @@
       </e>
       <e p="HolidaysService.sln" t="IncludeFlat" />
       <e p="HolidaysService.Tests" t="IncludeRecursive">
+        <e p="ApplicationServiceTests.cs" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Bootstrap" t="Include">
+          <e p="CompositionRoot.cs" t="Include" />
+          <e p="Registrations.cs" t="Include" />
+        </e>
         <e p="HolidaysService.Tests.csproj" t="IncludeRecursive" />
+        <e p="Mocks" t="Include">
+          <e p="MockPublicHolidaysService.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">

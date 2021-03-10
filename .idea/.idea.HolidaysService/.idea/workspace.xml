@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efe9d6c7-2dfa-4f65-a6a9-7ad3f060253f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.Tests/HolidaysService.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Tests/HolidaysService.Tests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,10 @@
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Tests/Bootstrap/Registrations.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Tests/Bootstrap/CompositionRoot.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Tests/Mocks/MockPublicHolidaysService.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Tests/ApplicationServiceTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pOEgZWZ6KPWwKNUiaIR2s6W3ag" />
@@ -141,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615045849115</updated>
       <workItem from="1615045852461" duration="3207000" />
-      <workItem from="1615396831772" duration="1817000" />
+      <workItem from="1615396831772" duration="2895000" />
     </task>
     <servers />
   </component>
@@ -191,6 +195,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs</url>
+          <line>16</line>
+          <properties documentPath="C:\Work\HolidaysService\HolidaysService\HolidaysService.ApplicationService\ApplicationService.cs" initialLine="16" containingFunctionPresentation="constructor 'ApplicationService'">
+            <startOffsets>
+              <option value="494" />
+            </startOffsets>
+            <endOffsets>
+              <option value="529" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
