@@ -7,9 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="efe9d6c7-2dfa-4f65-a6a9-7ad3f060253f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HolidaysService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +42,12 @@
       <option value="$PROJECT_DIR$/HolidaysService.Core/Constants.cs" />
       <option value="$PROJECT_DIR$/../HolidaysService.ApplicationService/HolidaysService.ApplicationService/ApplicationService.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/Class1.cs" />
-      <option value="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Startup.cs" />
-      <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Host/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/Contracts/HolidayInfoResponse.cs" />
       <option value="$PROJECT_DIR$/HolidaysService.Infrastructure/ExternalServiceProxies/PublicHolidaysServiceProxy/PublicHolidaysServiceProxy.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.Host/Controllers/HolidaysController.cs" />
+      <option value="$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pOEgZWZ6KPWwKNUiaIR2s6W3ag" />
@@ -142,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615045849115</updated>
       <workItem from="1615045852461" duration="3207000" />
+      <workItem from="1615396831772" duration="1817000" />
     </task>
     <servers />
   </component>
@@ -158,6 +158,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -167,26 +168,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs</url>
-          <line>34</line>
+          <line>35</line>
           <properties documentPath="C:\Work\HolidaysService\HolidaysService\HolidaysService.ApplicationService\ApplicationService.cs" initialLine="34" containingFunctionPresentation="method 'GetCountryWithMostHolidaysThisYear'">
             <startOffsets>
-              <option value="1232" />
+              <option value="1260" />
             </startOffsets>
             <endOffsets>
-              <option value="1316" />
+              <option value="1344" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/HolidaysService.ApplicationService/ApplicationService.cs</url>
-          <line>19</line>
+          <line>20</line>
           <properties documentPath="C:\Work\HolidaysService\HolidaysService\HolidaysService.ApplicationService\ApplicationService.cs" initialLine="19" containingFunctionPresentation="method 'GetCountryWithMostHolidaysThisYear'">
             <startOffsets>
-              <option value="605" />
+              <option value="633" />
             </startOffsets>
             <endOffsets>
-              <option value="634" />
+              <option value="662" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />

@@ -1,11 +1,10 @@
-using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HolidaysService.Host.Controllers
 {
-    [Microsoft.AspNetCore.Components.Route("api/holidays")]
-    public class HolidaysController
+    [ApiController, Route("api/holidays")]
+    public class HolidaysController : ControllerBase
     {
         private readonly ApplicationService.ApplicationService _applicationService;
 
