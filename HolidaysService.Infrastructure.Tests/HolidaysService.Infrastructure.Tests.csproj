@@ -18,4 +18,15 @@
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\HolidaysService.Infrastructure\HolidaysService.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="appsettings.json" />
+      <Content Include="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fe9becc9_002D436f_002D4a7b_002D9810_002D7ae23e1124eb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldGetCountryWithMostHolidaysThisYear" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::A28AE765-4C91-47B5-90E1-5644FE58DB6C::net5.0::HolidaysService.Tests.ApplicationServiceTests.ShouldGetCountryWithMostHolidaysThisYear&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::28505871-9377-4170-8488-3520AF296ABA::net5.0::HolidaysService.Infrastructure.Tests.ExternalServices.PublicHolidaysServiceProxyTests.ShouldGetHolidayInfo&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

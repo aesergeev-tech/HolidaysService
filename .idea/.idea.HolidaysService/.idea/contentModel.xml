@@ -91,7 +91,15 @@
         </e>
       </e>
       <e p="HolidaysService.Infrastructure.Tests" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Bootstrap" t="Include">
+          <e p="CompositionRoot.cs" t="Include" />
+          <e p="Registrations.cs" t="Include" />
+        </e>
+        <e p="ExternalServices" t="Include">
+          <e p="PublicHolidaysServiceProxyTests.cs" t="Include" />
+        </e>
         <e p="HolidaysService.Infrastructure.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
